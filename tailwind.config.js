@@ -1,0 +1,105 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          DEFAULT: '#0F172A',
+          50: '#f8fafc',
+          100: '#f1f5f9',
+          200: '#e2e8f0',
+          300: '#cbd5e1',
+          400: '#94a3b8',
+          500: '#64748b',
+          600: '#475569',
+          700: '#334155',
+          800: '#1e293b',
+          900: '#0f172a',
+          950: '#020617',
+        },
+        accent: {
+          DEFAULT: '#0EA5E9',
+          50: '#f0f9ff',
+          100: '#e0f2fe',
+          200: '#bae6fd',
+          300: '#7dd3fc',
+          400: '#38bdf8',
+          500: '#0ea5e9',
+          600: '#0284c7',
+          700: '#0369a1',
+          800: '#075985',
+          900: '#0c4a6e',
+        },
+        accent2: {
+          DEFAULT: '#06B6D4',
+          50: '#ecfeff',
+          100: '#cffafe',
+          200: '#a5f3fc',
+          300: '#67e8f9',
+          400: '#22d3ee',
+          500: '#06b6d4',
+          600: '#0891b2',
+          700: '#0e7490',
+          800: '#155e75',
+          900: '#164e63',
+        },
+        surface: '#1E293B',
+        light: '#F8FAFC',
+        muted: '#64748B',
+        success: {
+          DEFAULT: '#10B981',
+          50: '#ecfdf5',
+          500: '#10b981',
+          700: '#047857',
+        },
+        warning: {
+          DEFAULT: '#F59E0B',
+          50: '#fffbeb',
+          500: '#f59e0b',
+          700: '#b45309',
+        },
+        error: {
+          DEFAULT: '#EF4444',
+          50: '#fef2f2',
+          500: '#ef4444',
+          700: '#b91c1c',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        heading: ['Sora', 'system-ui', 'sans-serif'],
+      },
+      letterSpacing: {
+        tighter: '-0.03em',
+        tight: '-0.02em',
+      },
+      lineHeight: {
+        body: '1.7',
+        heading: '1.2',
+      },
+      animation: {
+        'marquee': 'marquee 30s linear infinite',
+        'marquee2': 'marquee2 30s linear infinite',
+        'float': 'float 6s ease-in-out infinite',
+        'pulse-slow': 'pulse 4s ease-in-out infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        marquee2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-20px)' },
+        },
+      },
+    },
+  },
+  plugins: [],
+};
