@@ -51,9 +51,9 @@ export default function ContactPage() {
   return (
     <>
       <Helmet>
-        <title>Contact — NexaForge Solutions</title>
-        <meta name="description" content="Start a project with NexaForge. Tell us about your needs and we'll get back to you within 24 hours." />
-        <link rel="canonical" href="https://nexaforge.io/contact" />
+        <title>Contact — KLD TECHNOLOGIES</title>
+        <meta name="description" content="Start a project with KLD TECHNOLOGIES. Tell us about your needs and we'll get back to you within 24 hours." />
+        <link rel="canonical" href="https://kldtech.io/contact" />
       </Helmet>
 
       <PageHero
@@ -197,7 +197,7 @@ export default function ContactPage() {
                   <h3 className="text-xl font-heading font-bold mb-6">Contact Information</h3>
                   <div className="space-y-5">
                     {[
-                      { icon: Mail, label: 'Email', value: 'hello@nexaforge.io' },
+                      { icon: Mail, label: 'Email', value: 'hello@kldtech.io' },
                       { icon: Phone, label: 'Phone', value: '+1 (415) 555-0190' },
                       { icon: MapPin, label: 'Address', value: '101 Market Street, Suite 1800\nSan Francisco, CA 94105' },
                     ].map(({ icon: Icon, label, value }) => (

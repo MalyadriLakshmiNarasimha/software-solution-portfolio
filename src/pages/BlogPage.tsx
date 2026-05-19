@@ -43,13 +43,13 @@ export default function BlogPage() {
   return (
     <>
       <Helmet>
-        <title>Blog — NexaForge Solutions</title>
-        <meta name="description" content="Engineering insights, tutorials, and case studies from the NexaForge team." />
-        <link rel="canonical" href="https://nexaforge.io/blog" />
+        <title>Blog — KLD TECHNOLOGIES</title>
+        <meta name="description" content="Engineering insights, tutorials, and case studies from the KLD TECHNOLOGIES team." />
+        <link rel="canonical" href="https://kldtech.io/blog" />
       </Helmet>
 
       <PageHero
-        title="The NexaForge Blog"
+        title="The KLD TECHNOLOGIES Blog"
         subtitle="Deep dives into software architecture, emerging tech, and the lessons we've learned building enterprise products."
         breadcrumb="Blog"
       />

@@ -11,12 +11,12 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title>NexaForge Solutions — Enterprise Software Development</title>
-        <meta name="description" content="NexaForge builds scalable enterprise software — web apps, mobile, cloud, AI/ML. 120+ projects delivered for 80+ clients worldwide." />
-        <meta property="og:title" content="NexaForge Solutions — Enterprise Software Development" />
+        <title>KLD TECHNOLOGIES — Enterprise Software Development</title>
+        <meta name="description" content="KLD TECHNOLOGIES builds scalable enterprise software — web apps, mobile, cloud, AI/ML. 120+ projects delivered for 80+ clients worldwide." />
+        <meta property="og:title" content="KLD TECHNOLOGIES — Enterprise Software Development" />
         <meta property="og:description" content="We build, scale, and transform enterprise software products." />
-        <meta property="og:url" content="https://nexaforge.io" />
-        <link rel="canonical" href="https://nexaforge.io" />
+        <meta property="og:url" content="https://kldtech.io" />
+        <link rel="canonical" href="https://kldtech.io" />
       </Helmet>
       <Hero />
       <StatsBar />

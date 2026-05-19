@@ -314,14 +314,14 @@ async function seed() {
   console.log('5 team members seeded');
 
   const settings = [
-    { key: 'company_name', value: 'NexaForge Solutions' },
+    { key: 'company_name', value: 'KLD TECHNOLOGIES' },
     { key: 'tagline', value: 'We Build. We Scale. We Transform.' },
-    { key: 'email', value: 'hello@nexaforge.io' },
+    { key: 'email', value: 'hello@kldtech.io' },
     { key: 'phone', value: '+1 (415) 555-0190' },
     { key: 'address', value: '101 Market Street, Suite 1800, San Francisco, CA 94105' },
-    { key: 'social_twitter', value: 'https://twitter.com/nexaforge' },
-    { key: 'social_linkedin', value: 'https://linkedin.com/company/nexaforge' },
-    { key: 'social_github', value: 'https://github.com/nexaforge' },
+    { key: 'social_twitter', value: 'https://twitter.com/kldtech' },
+    { key: 'social_linkedin', value: 'https://linkedin.com/company/kldtech' },
+    { key: 'social_github', value: 'https://github.com/kldtech' },
   ];
 
   await Settings.insertMany(settings);

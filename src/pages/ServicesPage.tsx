@@ -89,9 +89,9 @@ export default function ServicesPage() {
   return (
     <>
       <Helmet>
-        <title>Services — NexaForge Solutions</title>
+        <title>Services — KLD TECHNOLOGIES</title>
         <meta name="description" content="Enterprise software services: web development, mobile apps, cloud solutions, AI/ML, DevOps, and UI/UX design." />
-        <link rel="canonical" href="https://nexaforge.io/services" />
+        <link rel="canonical" href="https://kldtech.io/services" />
       </Helmet>
 
       <PageHero

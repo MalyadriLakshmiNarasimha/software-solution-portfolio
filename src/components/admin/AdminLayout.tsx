@@ -29,7 +29,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-accent-500 to-accent2-500 flex items-center justify-center">
               <Code2 className="w-4 h-4 text-white" />
             </div>
-            <span className="text-white font-heading font-bold">NexaForge</span>
+            <span className="text-white font-heading font-bold">KLD TECHNOLOGIES</span>
           </Link>
           <p className="text-primary-500 text-xs mt-2">CMS Dashboard</p>
         </div>

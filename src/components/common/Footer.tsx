@@ -31,7 +31,7 @@ export default function Footer() {
                 <Code2 className="w-5 h-5 text-white" />
               </div>
               <span className="text-white font-heading font-bold text-xl">
-                Nexa<span className="text-gradient">Forge</span>
+                KLD <span className="text-gradient">TECHNOLOGIES</span>
               </span>
             </Link>
             <p className="text-sm leading-relaxed mb-5">
@@ -102,7 +102,7 @@ export default function Footer() {
 
         <div className="border-t border-primary-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-primary-500">
-            &copy; {new Date().getFullYear()} NexaForge Solutions. All rights reserved.
+            &copy; {new Date().getFullYear()} KLD TECHNOLOGIES. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="hover:text-accent-400 transition-colors">Privacy Policy</a>

@@ -85,11 +85,11 @@ export default function BlogPostPage() {
   return (
     <>
       <Helmet>
-        <title>{post.title} — NexaForge Blog</title>
+        <title>{post.title} — KLD TECHNOLOGIES Blog</title>
         <meta name="description" content={post.excerpt} />
         <meta property="og:image" content={post.coverImage} />
         <meta property="og:title" content={post.title} />
-        <link rel="canonical" href={`https://nexaforge.io/blog/${slug}`} />
+        <link rel="canonical" href={`https://kldtech.io/blog/${slug}`} />
       </Helmet>
 
       {post.coverImage && (

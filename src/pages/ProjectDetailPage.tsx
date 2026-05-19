@@ -59,10 +59,10 @@ export default function ProjectDetailPage() {
   return (
     <>
       <Helmet>
-        <title>{project.title} — NexaForge Portfolio</title>
+        <title>{project.title} — KLD TECHNOLOGIES Portfolio</title>
         <meta name="description" content={project.summary} />
         <meta property="og:image" content={project.coverImage} />
-        <link rel="canonical" href={`https://nexaforge.io/portfolio/${slug}`} />
+        <link rel="canonical" href={`https://kldtech.io/portfolio/${slug}`} />
       </Helmet>
 
       {/* Hero */}

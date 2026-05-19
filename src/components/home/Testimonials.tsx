@@ -5,7 +5,7 @@ import ScrollReveal from '../common/ScrollReveal';
 
 const TESTIMONIALS = [
   {
-    quote: "NexaForge delivered our enterprise platform 3 weeks ahead of schedule, with zero critical bugs at launch. Their architecture decisions saved us months of future refactoring.",
+    quote: "KLD TECHNOLOGIES delivered our enterprise platform 3 weeks ahead of schedule, with zero critical bugs at launch. Their architecture decisions saved us months of future refactoring.",
     name: "David Park",
     role: "CTO, FinCorp International",
     avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=120&q=80",

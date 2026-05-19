@@ -35,7 +35,7 @@ export default function AdminLogin() {
             <Code2 className="w-6 h-6 text-white" />
           </div>
           <h1 className="text-2xl font-heading font-bold text-white">Admin Login</h1>
-          <p className="text-primary-400 text-sm mt-2">NexaForge CMS</p>
+          <p className="text-primary-400 text-sm mt-2">KLD TECHNOLOGIES CMS</p>
         </div>
 
         <form onSubmit={handleSubmit(onSubmit)} className="bg-primary-900 rounded-2xl p-8 border border-primary-800 space-y-5">

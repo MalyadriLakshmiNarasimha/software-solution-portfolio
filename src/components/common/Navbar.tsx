@@ -52,7 +52,7 @@ export default function Navbar() {
                 <Code2 className="w-5 h-5 text-white" />
               </div>
               <span className="text-white font-heading font-bold text-xl tracking-tight">
-                Nexa<span className="text-gradient">Forge</span>
+                KLD <span className="text-gradient">TECHNOLOGIES</span>
               </span>
             </Link>
 
