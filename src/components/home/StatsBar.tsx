@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import { useInView } from '../../hooks/useInView';
 
 const STATS = [
-  { value: 120, suffix: '+', label: 'Projects Delivered' },
-  { value: 80, suffix: '+', label: 'Enterprise Clients' },
-  { value: 8, suffix: '', label: 'Years of Excellence' },
-  { value: 24, suffix: '', label: 'Countries Served' },
+  { value: 3, suffix: '+', label: 'Projects Delivered' },
+  { value: 3, suffix: '+', label: 'Enterprise Clients' },
+  { value: 1, suffix: '', label: 'Years of Excellence' },
+  { value: 1, suffix: '', label: 'Countries Served' },
 ];
 
 function CountUp({ target, suffix, active }: { target: number; suffix: string; active: boolean }) {
